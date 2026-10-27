@@ -1,0 +1,41 @@
+# Java build output and generated source lists
+/build/
+/out/
+/target/
+*.class
+*.log
+/logs/
+
+# Per-installation QuizMaster data. This includes accounts, password hashes,
+# saved results, invitations, teacher-authored questions, and migration backups.
+/data/
+/backups/
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary GUI/manual test copies and scratch data
+/gui-check/
+/gui-sandbox/
+/temp/
+/tmp/
+
+# Local IDE/workspace state
+/.vscode/
+/.idea/
+/.project
+/.classpath
+/.settings/
+*.iml
+
+# Local environment credentials and private key material
+.env
+.env.*
+!.env.example
+credentials.properties
+credentials.csv
+*.pem
+*.key
+*.p12
+*.jks
